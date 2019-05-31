@@ -1,0 +1,768 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="cS9-PM-7Td">
+    <device id="retina6_1" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--BANDEIRAS-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Bandeiras" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="scribble-south-america-map-vector" translatesAutoresizingMaskIntoConstraints="NO" id="zNT-ZF-x1K">
+                                <rect key="frame" x="4" y="88" width="414" height="699"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IMr-UM-QUm">
+                                <rect key="frame" x="25" y="369" width="100" height="20"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="tintColor" red="0.39012696019999998" green="0.91255652669999998" blue="0.93517182740000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <state key="normal" title=".">
+                                    <color key="titleColor" red="0.39012696019999998" green="0.91255652669999998" blue="0.93517182740000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <color key="titleShadowColor" red="0.39012696019999998" green="0.91255652669999998" blue="0.93517182740000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <segue destination="bfy-e1-RWh" kind="show" id="fSv-9k-Oyt"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="y3q-1D-dN0">
+                                <rect key="frame" x="25" y="346" width="100" height="20"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="tintColor" red="0.39012696019999998" green="0.91255652669999998" blue="0.93517182740000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <state key="normal" title=".">
+                                    <color key="titleColor" red="0.39012696019999998" green="0.91255652669999998" blue="0.93517182740000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <color key="titleShadowColor" red="0.39012696019999998" green="0.91255652669999998" blue="0.93517182740000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <segue destination="xvX-SW-5vv" kind="show" id="Lmf-Go-dlJ"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="C4H-eX-D0a">
+                                <rect key="frame" x="25" y="411" width="100" height="20"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="tintColor" red="0.39012696019999998" green="0.91255652669999998" blue="0.93517182740000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <state key="normal" title=".">
+                                    <color key="titleColor" red="0.39012696019999998" green="0.91255652669999998" blue="0.93517182740000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <color key="titleShadowColor" red="0.39012696019999998" green="0.91255652669999998" blue="0.93517182740000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <segue destination="9SL-p3-FNb" kind="show" id="PGg-hw-BK9"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="M0j-HK-fjK">
+                                <rect key="frame" x="25" y="388" width="100" height="20"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="tintColor" red="0.39012696019999998" green="0.91255652669999998" blue="0.93517182740000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <state key="normal" title=".">
+                                    <color key="titleColor" red="0.39012696019999998" green="0.91255652669999998" blue="0.93517182740000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <color key="titleShadowColor" red="0.39012696019999998" green="0.91255652669999998" blue="0.93517182740000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <segue destination="EFb-mK-HJT" kind="show" id="pE7-KZ-LdO"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oqi-qq-6Eo">
+                                <rect key="frame" x="25" y="451" width="100" height="20"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="tintColor" red="0.39012696019999998" green="0.91255652669999998" blue="0.93517182740000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <state key="normal" title=".">
+                                    <color key="titleColor" red="0.39012696019999998" green="0.91255652669999998" blue="0.93517182740000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <color key="titleShadowColor" red="0.39012696019999998" green="0.91255652669999998" blue="0.93517182740000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <segue destination="kKy-ac-uWR" kind="show" id="PVv-ca-meS"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="v1a-wh-kd9">
+                                <rect key="frame" x="25" y="428" width="100" height="20"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="tintColor" red="0.39012696019999998" green="0.91255652669999998" blue="0.93517182740000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <state key="normal" title=".">
+                                    <color key="titleColor" red="0.39012696019999998" green="0.91255652669999998" blue="0.93517182740000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <color key="titleShadowColor" red="0.39012696019999998" green="0.91255652669999998" blue="0.93517182740000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <segue destination="Q0x-D3-5ZN" kind="show" id="FF1-HJ-tB0"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dz2-Ix-dgx">
+                                <rect key="frame" x="25" y="493" width="100" height="20"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="tintColor" red="0.39012696019999998" green="0.91255652669999998" blue="0.93517182740000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <state key="normal" title=".">
+                                    <color key="titleColor" red="0.39012696019999998" green="0.91255652669999998" blue="0.93517182740000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <color key="titleShadowColor" red="0.39012696019999998" green="0.91255652669999998" blue="0.93517182740000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <segue destination="I6R-CZ-cJe" kind="show" id="Hb8-Sg-deI"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LlG-0P-Nja">
+                                <rect key="frame" x="25" y="470" width="100" height="20"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="tintColor" red="0.39012696019999998" green="0.91255652669999998" blue="0.93517182740000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <state key="normal" title=".">
+                                    <color key="titleColor" red="0.39012696019999998" green="0.91255652669999998" blue="0.93517182740000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <color key="titleShadowColor" red="0.39012696019999998" green="0.91255652669999998" blue="0.93517182740000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <segue destination="Yo1-eX-Pfb" kind="show" id="qsT-L6-Eu5"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BJx-VE-sih">
+                                <rect key="frame" x="25" y="515" width="100" height="20"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="tintColor" red="0.39012696019999998" green="0.91255652669999998" blue="0.93517182740000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <state key="normal" title=".">
+                                    <color key="titleColor" red="0.39012696019999998" green="0.91255652669999998" blue="0.93517182740000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <color key="titleShadowColor" red="0.39012696019999998" green="0.91255652669999998" blue="0.93517182740000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <segue destination="tCd-Ej-Pk8" kind="show" id="Kbg-ij-BP3"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CjE-8X-gIx">
+                                <rect key="frame" x="25" y="557" width="100" height="20"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="tintColor" red="0.39012696019999998" green="0.91255652669999998" blue="0.93517182740000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <state key="normal" title=".">
+                                    <color key="titleColor" red="0.39012696019999998" green="0.91255652669999998" blue="0.93517182740000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <color key="titleShadowColor" red="0.39012696019999998" green="0.91255652669999998" blue="0.93517182740000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <segue destination="bmP-Tp-l1i" kind="show" id="xsk-Xy-Atr"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0bL-D3-on1">
+                                <rect key="frame" x="25" y="534" width="100" height="20"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="tintColor" red="0.39012696019999998" green="0.91255652669999998" blue="0.93517182740000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <state key="normal" title=".">
+                                    <color key="titleColor" red="0.39012696019999998" green="0.91255652669999998" blue="0.93517182740000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <color key="titleShadowColor" red="0.39012696019999998" green="0.91255652669999998" blue="0.93517182740000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <segue destination="4so-gM-auh" kind="show" id="ewm-b0-gXZ"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="buV-Zx-wvV">
+                                <rect key="frame" x="133" y="348" width="100" height="20"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="tintColor" red="0.39012696019999998" green="0.91255652669999998" blue="0.93517182740000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <state key="normal" title=".">
+                                    <color key="titleColor" red="0.39012696019999998" green="0.91255652669999998" blue="0.93517182740000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <color key="titleShadowColor" red="0.39012696019999998" green="0.91255652669999998" blue="0.93517182740000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <segue destination="gTF-Cb-cPI" kind="show" id="gSx-3p-v9e"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2aX-wY-GER">
+                                <rect key="frame" x="133" y="367" width="100" height="20"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="tintColor" red="0.39012696019999998" green="0.91255652669999998" blue="0.93517182740000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <state key="normal" title=".">
+                                    <color key="titleColor" red="0.39012696019999998" green="0.91255652669999998" blue="0.93517182740000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <color key="titleShadowColor" red="0.39012696019999998" green="0.91255652669999998" blue="0.93517182740000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <segue destination="CPf-eU-sOr" kind="show" id="dlY-dw-nhh"/>
+                                </connections>
+                            </button>
+                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Marcussi" borderStyle="roundedRect" textAlignment="center" minimumFontSize="50" translatesAutoresizingMaskIntoConstraints="NO" id="asG-Jd-Swp">
+                                <rect key="frame" x="10" y="176" width="394" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-BoldItalic" family="Helvetica Neue" pointSize="30"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Bandeiras do SUL" translatesAutoresizingMaskIntoConstraints="NO" id="Yrr-pe-dwi">
+                                <rect key="frame" x="20" y="646" width="374" height="216"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="BANDEIRAS" id="Kse-bh-mJn"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1435" y="1519"/>
+        </scene>
+        <!--Colombia-->
+        <scene sceneID="7Fp-lO-Aj7">
+            <objects>
+                <viewController title="Colombia" id="xvX-SW-5vv" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="g4n-Zj-rFH">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Colombia" translatesAutoresizingMaskIntoConstraints="NO" id="wKd-8F-ruw">
+                                <rect key="frame" x="87" y="133" width="240" height="128"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Colombia" borderStyle="roundedRect" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="IHR-kg-gqS">
+                                <rect key="frame" x="87" y="310" width="240" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="30"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="MSJ-7e-OLV">
+                                <rect key="frame" x="56" y="367" width="300" height="356"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <string key="text">Colômbia, oficialmente República da Colômbia, é uma república constitucional do noroeste da América do Sul. A Colômbia faz fronteira a leste com a Venezuela e Brasil; ao sul com o Equador e Peru; para o norte com o Mar do Caribe, ao noroeste com o Panamá; e a oeste com o Oceano Pacífico. Wikipédia
+Presidente: Iván Duque Márquez Mais populares
+Capital: Bogotá
+Moeda: Peso colombiano
+Pontos de interesse: Parque Nacional Natural Tayrona, MAIS
+Línguas oficiais: Língua castelhana, Língua inglesa</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="YFK-Qk-tbS"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="7W7-gf-Iii" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-591" y="860"/>
+        </scene>
+        <!--BANDEIRAS-->
+        <scene sceneID="97h-hD-iLj">
+            <objects>
+                <navigationController title="BANDEIRAS" automaticallyAdjustsScrollViewInsets="NO" id="cS9-PM-7Td" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="aWi-Mp-aef">
+                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="pBN-sg-09v"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="FKd-ke-d8M" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="886" y="123"/>
+        </scene>
+        <!--Venezuela-->
+        <scene sceneID="rOS-pq-L9j">
+            <objects>
+                <viewController title="Venezuela" id="bfy-e1-RWh" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="v0Z-zx-W4G">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Venezuela" translatesAutoresizingMaskIntoConstraints="NO" id="x5C-OM-vSa">
+                                <rect key="frame" x="87" y="133" width="240" height="128"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Venezuela" borderStyle="roundedRect" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="BHn-mL-YDa">
+                                <rect key="frame" x="87" y="310" width="240" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="30"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="LIu-lM-wDN">
+                                <rect key="frame" x="56" y="367" width="300" height="356"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <mutableString key="text">Venezuela, oficialmente República Bolivariana da Venezuela, é um país da América localizado na parte norte da América do Sul, constituída por uma parte continental e um grande número de pequenas ilhas no Mar do Caribe, cuja capital e maior aglomeração urbana é a cidade de Caracas. Wikipédia
+Moedas: Bolívar venezuelano, Bolívar soberano Mais populares
+Capital: Caracas
+Porta-voz: Julio Borges
+População: 31,98 milhões (2017) Banco Mundial
+Governo: República, Federação, Estado socialista, Presidencialismo, República federal, República constitucional
+Língua oficial: Língua castelhana</mutableString>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="Uz2-HS-3Ey"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iSc-cg-lZE" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="109" y="861"/>
+        </scene>
+        <!--Guiana-->
+        <scene sceneID="9dR-nh-PWT">
+            <objects>
+                <viewController title="Guiana" id="EFb-mK-HJT" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="9bp-iT-gwT">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Guiana" borderStyle="roundedRect" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Ms2-US-18S">
+                                <rect key="frame" x="87" y="310" width="240" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="30"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="uzg-Wo-hD3">
+                                <rect key="frame" x="56" y="367" width="300" height="356"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <string key="text">Venezuela, oficialmente República Bolivariana da Venezuela, é um país da América localizado na parte norte da América do Sul, constituída por uma parte continental e um grande número de pequenas ilhas no Mar do Caribe, cuja capital e maior aglomeração urbana é a cidade de Caracas. Wikipédia
+Moedas: Bolívar venezuelano, Bolívar soberano Mais populares
+Capital: Caracas
+Porta-voz: Julio Borges
+População: 31,98 milhões (2017) Banco Mundial
+Governo: República, Federação, Estado socialista, Presidencialismo, República federal, República constitucional
+Língua oficial: Língua castelhana</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Guiana" translatesAutoresizingMaskIntoConstraints="NO" id="kz1-UW-eQE">
+                                <rect key="frame" x="115" y="161" width="212" height="85"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="7TI-GK-K4M"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="9uA-AO-g8t" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="769.56521739130437" y="859.82142857142856"/>
+        </scene>
+        <!--Suriname-->
+        <scene sceneID="fh5-Sk-h1R">
+            <objects>
+                <viewController title="Suriname" id="9SL-p3-FNb" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="bSj-u4-QL0">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Suriname" borderStyle="roundedRect" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="1RG-eS-j0d">
+                                <rect key="frame" x="87" y="310" width="240" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="30"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="mim-3m-fZy">
+                                <rect key="frame" x="56" y="367" width="300" height="356"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <string key="text">Suriname, oficialmente chamado de República do Suriname, é um país do norte da América do Sul, limitado a norte pelo oceano Atlântico, a leste pela Guiana Francesa, a sul pelo Brasil e a oeste pela Guiana. Com pouco menos de 165.000 quilômetros quadrados, é o menor país da América do Sul. Wikipédia
+Capital: Paramaribo
+Continente: América do Sul
+Moeda: Dólar do Suriname
+População: 563.402 (2017) Banco Mundial
+Pontos de interesse: Parque Natural Brownsberg,</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Suriname" translatesAutoresizingMaskIntoConstraints="NO" id="SeP-k1-6Xb">
+                                <rect key="frame" x="119" y="162" width="208" height="89"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="WZ9-ku-KnN"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Gpp-r4-jtH" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1434.7826086956522" y="859.82142857142856"/>
+        </scene>
+        <!--Guiana Francesa-->
+        <scene sceneID="oY2-UG-bKA">
+            <objects>
+                <viewController title="Guiana Francesa" id="Q0x-D3-5ZN" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="NU8-r2-HQs">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Guiana Francesa" translatesAutoresizingMaskIntoConstraints="NO" id="reI-hH-Hh9">
+                                <rect key="frame" x="87" y="133" width="240" height="128"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Guiana Francesa" borderStyle="roundedRect" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="SNM-WW-frU">
+                                <rect key="frame" x="87" y="310" width="240" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="30"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="X5T-Rq-e5I">
+                                <rect key="frame" x="56" y="367" width="300" height="356"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <string key="text">A Guiana Francesa é um departamento ultramarino e região da França, na costa do Atlântico Norte da América do Sul, nas Guianas. Faz fronteira com o Brasil a leste e sul e com o Suriname a oeste. Wikipédia
+Capital: Caiena
+Moeda: Euro
+Continente: América do Sul
+Língua oficial: Língua francesa
+Pontos de interesse: Ilha do Diabo, Salvation's Islands</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="4nm-MK-UKj"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="NKn-lv-vq6" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2090" y="860"/>
+        </scene>
+        <!--Brasil-->
+        <scene sceneID="s2u-NI-5mA">
+            <objects>
+                <viewController title="Brasil" id="kKy-ac-uWR" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="iuz-rX-2cb">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Brasil" translatesAutoresizingMaskIntoConstraints="NO" id="Hhl-sn-IrM">
+                                <rect key="frame" x="87" y="133" width="240" height="128"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Brasil" borderStyle="roundedRect" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="hBt-I5-gAT">
+                                <rect key="frame" x="87" y="310" width="240" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="30"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="7fe-ty-4eB">
+                                <rect key="frame" x="56" y="367" width="300" height="356"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <string key="text">Brasil, oficialmente República Federativa do Brasil, é o maior país da América do Sul e da região da América Latina, sendo o quinto maior do mundo em área territorial e quinto em população. Wikipédia
+Produto Interno Bruto: 2,056 trilhões USD (2017) Banco Mundial, Mais populares
+Capital: Brasília
+Presidente: Jair Bolsonaro
+População: 209,3 milhões (2017) Banco Mundial
+Estados: Minas Gerais, São Paulo, Paraná, Bahia, Santa Catarina, </string>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="B9f-zT-kMS"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="WaN-Oc-Ogi" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2770" y="860"/>
+        </scene>
+        <!--Bolivia-->
+        <scene sceneID="tsD-ur-laZ">
+            <objects>
+                <viewController title="Bolivia" id="Yo1-eX-Pfb" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Zdj-6p-Inz">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Bolivia" translatesAutoresizingMaskIntoConstraints="NO" id="eXe-j1-Ern">
+                                <rect key="frame" x="87" y="133" width="240" height="128"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Bolivia" borderStyle="roundedRect" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="azy-lN-PXU">
+                                <rect key="frame" x="87" y="310" width="240" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="30"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="Bgc-8Q-Juv">
+                                <rect key="frame" x="56" y="367" width="300" height="356"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <string key="text">Bolívia, oficialmente Estado Plurinacional da Bolívia, é um país encravado no centro-oeste da América do Sul. Faz fronteira com o Brasil ao norte e leste, Paraguai e Argentina ao sul, e Chile e Peru ao oeste. Wikipédia
+Capital: Sucre
+Presidente: Evo Morales
+Moeda: Boliviano</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="cSN-YN-zTq"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="CEs-E9-wMT" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3423" y="860"/>
+        </scene>
+        <!--Paraguai-->
+        <scene sceneID="c67-gz-VpQ">
+            <objects>
+                <viewController title="Paraguai" id="I6R-CZ-cJe" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="BPx-8g-47E">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Paraguai" translatesAutoresizingMaskIntoConstraints="NO" id="y8F-fe-HKI">
+                                <rect key="frame" x="87" y="133" width="240" height="128"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Paraguai" borderStyle="roundedRect" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="6Vf-nH-Qc3">
+                                <rect key="frame" x="87" y="310" width="240" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="30"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="Aff-dn-JVQ">
+                                <rect key="frame" x="56" y="367" width="300" height="356"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <string key="text">Paraguai, oficialmente República do Paraguai, é um país do centro da América do Sul, limitado a norte e oeste pela Bolívia, a nordeste e leste pelo Brasil e a sul e oeste pela Argentina. O Paraguai é um dos dois países da América do Sul que não possuem uma saída para o mar, juntamente com a Bolívia. Wikipédia
+Capital: Assunção
+Código de discagem: +595
+Moeda: Guarani
+Presidente: Mario Abdo Benítez</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="ZRn-XP-pdf"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="1Z2-Ut-Jrn" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-625" y="2175"/>
+        </scene>
+        <!--Uruguai-->
+        <scene sceneID="xtk-YV-6W3">
+            <objects>
+                <viewController title="Uruguai" id="tCd-Ej-Pk8" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="H9s-bR-m3Y">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Uruguai" translatesAutoresizingMaskIntoConstraints="NO" id="JO9-bd-RoE">
+                                <rect key="frame" x="87" y="133" width="240" height="128"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Uruguai" borderStyle="roundedRect" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="ryQ-dG-7Tg">
+                                <rect key="frame" x="87" y="310" width="240" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="30"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="g2E-W7-3Yv">
+                                <rect key="frame" x="56" y="367" width="300" height="356"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <string key="text">Uruguai, oficialmente República Oriental do Uruguai, é um país localizado na parte sudeste da América do Sul. Sua população é de cerca de 3,5 milhões de habitantes, dos quais 1,8 milhão vivem na capital, Montevidéu, e em sua área metropolitana. Wikipédia
+Presidente: Tabaré Vázquez Mais populares
+Capital: Montevidéu
+Moeda: Peso uruguaio
+Destinos: Montevidéu, Punta del Este, Colônia do Sacramento, MAIS
+Língua oficial: Língua castelhana</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="Wl0-LG-jAM"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ZFh-YF-LnZ" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="62" y="2175"/>
+        </scene>
+        <!--Argentina-->
+        <scene sceneID="hFQ-mY-Zmd">
+            <objects>
+                <viewController title="Argentina" id="4so-gM-auh" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Yk4-ob-cxU">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Agentina" translatesAutoresizingMaskIntoConstraints="NO" id="UEt-7F-XC0">
+                                <rect key="frame" x="87" y="133" width="240" height="128"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Argentina" borderStyle="roundedRect" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="MCM-8o-MJq">
+                                <rect key="frame" x="87" y="310" width="240" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="30"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="Rw5-eU-L0l">
+                                <rect key="frame" x="56" y="367" width="300" height="356"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <string key="text">Argentina, oficialmente República Argentina, é o segundo maior país da América do Sul em território e o terceiro em população, constituída como uma federação de 23 províncias e uma cidade autônoma, Buenos Aires, capital do país. Wikipédia
+Moeda: Peso argentino Mais populares
+Capital: Buenos Aires
+Presidente: Mauricio Macri
+Pontos de interesse: Geleira Perito Moreno, MAIS
+Língua oficial: Língua castelhana</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="Ozy-zh-lRr"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="S3y-Dj-a0a" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="770" y="2175"/>
+        </scene>
+        <!--Chile-->
+        <scene sceneID="72D-Xd-Hv3">
+            <objects>
+                <viewController title="Chile" id="bmP-Tp-l1i" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Jod-Gk-YW2">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Chile" translatesAutoresizingMaskIntoConstraints="NO" id="8M5-TO-SFO">
+                                <rect key="frame" x="87" y="133" width="240" height="128"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Chile" borderStyle="roundedRect" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Weu-vp-K7O">
+                                <rect key="frame" x="87" y="310" width="240" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="30"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="c44-CP-SAR">
+                                <rect key="frame" x="56" y="367" width="300" height="356"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <string key="text">Chile, oficialmente República do Chile em castelhano: República de Chile Wikipédia
+Capital: Santiago Mais populares
+Moeda: Peso chileno
+Presidente: Sebastián Piñera
+Destinos: Santiago, Parque Nacional Torres del Paine, MAIS
+Língua oficial: Língua castelhana</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="kfM-Ng-TA9"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="1jp-ov-aso" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1435" y="2175"/>
+        </scene>
+        <!--Peru-->
+        <scene sceneID="gnv-LA-ha3">
+            <objects>
+                <viewController title="Peru" id="gTF-Cb-cPI" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="FhU-3Z-lEl">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Peru" translatesAutoresizingMaskIntoConstraints="NO" id="QYP-gO-Tgx">
+                                <rect key="frame" x="87" y="133" width="240" height="128"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Peru" borderStyle="roundedRect" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="XpM-f9-VjS">
+                                <rect key="frame" x="87" y="310" width="240" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="30"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="Kbo-UD-Cnw">
+                                <rect key="frame" x="56" y="367" width="300" height="356"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <string key="text">Peru, oficialmente chamado de República do Peru, é um país sul-americano limitado ao norte pelo Equador e pela Colômbia, a leste pelo Brasil e pela Bolívia e ao sul pelo Chile. O seu litoral, a oeste, é banhado pelo oceano Pacífico. Wikipédia
+População: 32,17 milhões (2017) Banco Mundial, Mais populares
+Capital: Lima
+Presidente: Martín Vizcarra
+Moeda: Novo sol</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="mFV-ol-byw"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="DSg-AJ-Cj6" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2090" y="2175"/>
+        </scene>
+        <!--Ecuador-->
+        <scene sceneID="Ptm-f6-ewA">
+            <objects>
+                <viewController title="Ecuador" id="CPf-eU-sOr" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="lWF-pN-kVq">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Venezuela" translatesAutoresizingMaskIntoConstraints="NO" id="tX4-ky-dc9">
+                                <rect key="frame" x="87" y="133" width="240" height="128"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Ecuador" borderStyle="roundedRect" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="uaq-DG-Stz">
+                                <rect key="frame" x="87" y="310" width="240" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="30"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="N8t-Mq-YkP">
+                                <rect key="frame" x="56" y="367" width="300" height="356"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <mutableString key="text">Equador, oficialmente República do Equador, é uma república democrática representativa localizada na América do Sul limitada a norte pela Colômbia, a leste e sul pelo Peru e a oeste pelo oceano Pacífico. É um dos dois países da região que não têm fronteiras comuns com o Brasil, além do Chile. Wikipédia
+Capital: Quito
+Capital e maior cidade: Quito; 00°9′S 78°21′W﻿ / ﻿0.150°S 78.350°W
+Moeda: Dólar dos Estados Unidos
+Presidente: Lenín Moreno
+Pontos de interesse: Cotopaxi, Quilotoa, Ilha de Baltra,</mutableString>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="h01-PT-wP0"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="B4T-0v-1sK" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2770" y="2175"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="Agentina" width="720" height="720"/>
+        <image name="Bandeiras do SUL" width="1280" height="652"/>
+        <image name="Bolivia" width="216" height="216"/>
+        <image name="Brasil" width="720" height="720"/>
+        <image name="Chile" width="256" height="256"/>
+        <image name="Colombia" width="820" height="860"/>
+        <image name="Guiana" width="260" height="260"/>
+        <image name="Guiana Francesa" width="900" height="480"/>
+        <image name="Paraguai" width="720" height="720"/>
+        <image name="Peru" width="256" height="256"/>
+        <image name="Suriname" width="360" height="360"/>
+        <image name="Uruguai" width="720" height="720"/>
+        <image name="Venezuela" width="720" height="720"/>
+        <image name="scribble-south-america-map-vector" width="653" height="490"/>
+    </resources>
+</document>
