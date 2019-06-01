@@ -179,14 +179,14 @@
                                 </connections>
                             </button>
                             <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Marcussi" borderStyle="roundedRect" textAlignment="center" minimumFontSize="50" translatesAutoresizingMaskIntoConstraints="NO" id="asG-Jd-Swp">
-                                <rect key="frame" x="10" y="176" width="394" height="30"/>
+                                <rect key="frame" x="10" y="614" width="394" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <nil key="textColor"/>
                                 <fontDescription key="fontDescription" name="HelveticaNeue-BoldItalic" family="Helvetica Neue" pointSize="30"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Bandeiras do SUL" translatesAutoresizingMaskIntoConstraints="NO" id="Yrr-pe-dwi">
-                                <rect key="frame" x="20" y="646" width="374" height="216"/>
+                                <rect key="frame" x="71" y="100" width="272" height="161"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                         </subviews>
@@ -197,7 +197,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1435" y="1519"/>
+            <point key="canvasLocation" x="1434.7826086956522" y="1518.75"/>
         </scene>
         <!--Colombia-->
         <scene sceneID="7Fp-lO-Aj7">
@@ -281,13 +281,13 @@ Línguas oficiais: Língua castelhana, Língua inglesa</string>
                                 <rect key="frame" x="56" y="367" width="300" height="356"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <mutableString key="text">Venezuela, oficialmente República Bolivariana da Venezuela, é um país da América localizado na parte norte da América do Sul, constituída por uma parte continental e um grande número de pequenas ilhas no Mar do Caribe, cuja capital e maior aglomeração urbana é a cidade de Caracas. Wikipédia
+                                <string key="text">Venezuela, oficialmente República Bolivariana da Venezuela, é um país da América localizado na parte norte da América do Sul, constituída por uma parte continental e um grande número de pequenas ilhas no Mar do Caribe, cuja capital e maior aglomeração urbana é a cidade de Caracas. Wikipédia
 Moedas: Bolívar venezuelano, Bolívar soberano Mais populares
 Capital: Caracas
 Porta-voz: Julio Borges
 População: 31,98 milhões (2017) Banco Mundial
 Governo: República, Federação, Estado socialista, Presidencialismo, República federal, República constitucional
-Língua oficial: Língua castelhana</mutableString>
+Língua oficial: Língua castelhana</string>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
@@ -730,12 +730,12 @@ Moeda: Novo sol</string>
                                 <rect key="frame" x="56" y="367" width="300" height="356"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <mutableString key="text">Equador, oficialmente República do Equador, é uma república democrática representativa localizada na América do Sul limitada a norte pela Colômbia, a leste e sul pelo Peru e a oeste pelo oceano Pacífico. É um dos dois países da região que não têm fronteiras comuns com o Brasil, além do Chile. Wikipédia
+                                <string key="text">Equador, oficialmente República do Equador, é uma república democrática representativa localizada na América do Sul limitada a norte pela Colômbia, a leste e sul pelo Peru e a oeste pelo oceano Pacífico. É um dos dois países da região que não têm fronteiras comuns com o Brasil, além do Chile. Wikipédia
 Capital: Quito
 Capital e maior cidade: Quito; 00°9′S 78°21′W﻿ / ﻿0.150°S 78.350°W
 Moeda: Dólar dos Estados Unidos
 Presidente: Lenín Moreno
-Pontos de interesse: Cotopaxi, Quilotoa, Ilha de Baltra,</mutableString>
+Pontos de interesse: Cotopaxi, Quilotoa, Ilha de Baltra,</string>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
