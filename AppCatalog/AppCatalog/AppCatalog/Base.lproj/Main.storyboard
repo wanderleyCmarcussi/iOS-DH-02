@@ -259,7 +259,14 @@
                     <toolbarItems/>
                     <simulatedToolbarMetrics key="simulatedBottomBarMetrics"/>
                     <connections>
+                        <outlet property="androidEscolha" destination="piO-ge-jFG" id="sYa-dp-PXq"/>
+                        <outlet property="categoria" destination="HAV-Zp-Vht" id="YMR-gt-Ye0"/>
+                        <outlet property="categoriaEscolha" destination="HAV-Zp-Vht" id="Dmc-kE-1Jb"/>
+                        <outlet property="desenvolvedorText" destination="seH-aJ-x7H" id="xqv-BU-QFX"/>
+                        <outlet property="iOSescolha" destination="EbC-ed-zez" id="NHW-8e-LC2"/>
+                        <outlet property="iosEscolha" destination="EbC-ed-zez" id="lJe-vb-hI6"/>
                         <outlet property="nomeText" destination="4xJ-QW-SUd" id="MHm-Mf-IS6"/>
+                        <outlet property="precoText" destination="ZxR-1U-a1X" id="pna-69-uKG"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="fft-xu-J7x" userLabel="First Responder" sceneMemberID="firstResponder"/>

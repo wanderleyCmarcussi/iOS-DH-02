@@ -11,8 +11,11 @@ import UIKit
 class NovoAplicativoViewController: UIViewController {
 
     @IBOutlet weak var nomeText: UITextField!
-    
-    
+    @IBOutlet weak var desenvolvedorText: UITextField!
+    @IBOutlet weak var precoText: UITextField!
+    @IBOutlet weak var categoriaEscolha: UISegmentedControl!
+    @IBOutlet weak var iosEscolha: UISwitch!
+    @IBOutlet weak var androidEscolha: UISwitch!
     
     override func viewDidLoad() {
         super.viewDidLoad()
